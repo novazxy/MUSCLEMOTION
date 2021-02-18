@@ -99,7 +99,7 @@ macro "MUSCLEMOTION Action Tool - C1422444T0c10MTac10M;" {
 	Dialog.addMessage("Please refer to the UserManual for an instruction how to choose the correct reference frame.");
 	Dialog.addRadioButtonGroup(" F. Do you want to decrease noise in your output?\n", complexAnswers, 0, 2, SNRimprovement);
 	Dialog.addMessage("Please refer to the UserManual for more information. Computational time will increase.");
-	Dialog.addRadioButtonGroup(" G. Do want MUSCLEMOTION to detect your reference frame?\n", complexAnswers, 0, 2, autodetectReferenceFrame);
+	Dialog.addRadioButtonGroup(" G. Do you want MUSCLEMOTION to detect your reference frame?\n", complexAnswers, 0, 2, autodetectReferenceFrame);
 	Dialog.addMessage("The default is YES, but in some situations the program might fail to detect the correct reference \nframe. This is setup dependent, be careful to check your output carefully. Please refer to the \nUserManual for more information.");
 	Dialog.addRadioButtonGroup(" H. Do you want MUSCLEMOTION to analyze your transients?\n", complexAnswers, 0, 2, automaticTransientDetection);
 	Dialog.show();
